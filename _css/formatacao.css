@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* GERAIS */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;      
+}
+
+body {
+    background-color: rgb(228, 182, 160);  
+    font-family: Georgia, 'Times New Roman', Times, serif;      
+}
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+header{
+    height: 60px;
+}
+.navbar-nav {
+    
+    width: 100%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    
+}
+
+
+nav#menu{
+    height: calc(100vh-100px);
+}
+
+ /* IMAGEM LOGO */
+
+.logotipo {
+    width: 50px;
+}
+
+/* RODAPÉ*/
+footer{
+    display: block;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    color: #CD853F;
+    background-color: #808080;
+    margin-top: 5px;         
+}
